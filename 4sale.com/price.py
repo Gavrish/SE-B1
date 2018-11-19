@@ -9,13 +9,14 @@ from sklearn import metrics
 #train = pd.read_csv('/home/nicco/SE-B1/4sale.com/db/input_csv_files/train.csv')
 #test = pd.read_csv('/home/nicco/SE-B1/4sale.com/db/input_csv_files/test.csv')
 
-
+# A class to carry out property price estimation
 class price_est:
+    # initialize with training data 
 	def __init__(self,pred):
 		self.train = pd.read_csv('db/input_csv_files/train.csv')
 		self.pred = pred	
 
-	
+	# Use RandomForestRegressor to predict price value
 	def est(self, pred):
 		#y = dataset.iloc[:, 4].values
 		

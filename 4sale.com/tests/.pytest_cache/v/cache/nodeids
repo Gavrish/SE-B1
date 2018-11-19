@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   "test_app.py::TestApp::test_form_about",
   "test_app.py::TestApp::test_form_contact",
@@ -21,3 +22,6 @@
   "test_utils.py::test_normalize",
   "test_utils.py::test_generate_tag_list"
 ]
+=======
+[]
+>>>>>>> master
