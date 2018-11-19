@@ -1,17 +1,6 @@
-<<<<<<< HEAD
 [
-  "test_app.py::TestApp::test_form_about",
-  "test_app.py::TestApp::test_form_contact",
-  "test_app.py::TestApp::test_listings_single",
-  "test_app.py::TestApp::test_listings",
-  "test_app.py::TestApp::test_login",
-  "test_app.py::TestApp::test_post_ad",
-  "test_app.py::TestApp::test_register",
-  "test_app.py::TestApp::test_news",
-  "test_app.py::TestApp::test_ques_ans",
-  "test_app.py::TestApp::test_reply",
   "test_db_utils.py::test_create",
-  "test_db_utils.py::test_db_utils",
+  "test_db_utils2.py::test_db_utils",
   "test_filter.py::test_create",
   "test_greencover.py::test_create",
   "test_greencover.py::test_values",
@@ -22,6 +11,3 @@
   "test_utils.py::test_normalize",
   "test_utils.py::test_generate_tag_list"
 ]
-=======
-[]
->>>>>>> master

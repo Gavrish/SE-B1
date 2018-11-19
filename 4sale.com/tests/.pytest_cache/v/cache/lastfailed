@@ -53,6 +53,7 @@
   "test_app.py::test_reco": true,
   "test_app.py::test_register_page": true,
   "test_app.py::test_vastu": true,
+  "test_db_utils2.py::test_db_utils": true,
   "test_scraper.py::test_create": true,
   "test_scraper.py::test_scraper": true
 }
