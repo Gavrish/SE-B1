@@ -1,1 +1,13 @@
-{}
+{
+  "test_app.py::TestApp::test_form_about": true,
+  "test_app.py::TestApp::test_form_contact": true,
+  "test_app.py::TestApp::test_listings": true,
+  "test_app.py::TestApp::test_listings_single": true,
+  "test_app.py::TestApp::test_login": true,
+  "test_app.py::TestApp::test_news": true,
+  "test_app.py::TestApp::test_post_ad": true,
+  "test_app.py::TestApp::test_ques_ans": true,
+  "test_app.py::TestApp::test_register": true,
+  "test_app.py::TestApp::test_reply": true,
+  "test_db_utils.py::test_db_utils": true
+}

@@ -1,9 +1,1 @@
-[
-  "test_greencover.py::test_create",
-  "test_greencover.py::test_values",
-  "test_greencover.py::test_test_cases",
-  "test_map.py::test_create",
-  "test_map.py::test_test_cases",
-  "test_utils.py::test_normalize",
-  "test_utils.py::test_generate_tag_list"
-]
+[]
