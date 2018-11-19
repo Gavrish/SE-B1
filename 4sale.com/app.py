@@ -9,7 +9,8 @@ from flask_mail import Mail,Message
 import price
 from flask_dropzone import Dropzone
 from utils import *
-from filter import *
+from fil import *
+
 
 #basedir = os.path.abspath(os.path.dirname(__file__))
 app = Flask(__name__)
@@ -148,8 +149,10 @@ def advanced_filter():
 def process_advanced_filter():
     data = request.form
     print(data)
-    basicFilter = Filter()
-    properties = basicFilter.basic_filter(data,db)
+    filter_1=Filter1()
+    abstraction_imp=Abstraction(filter_1)
+    properties = abstraction_imp.operation(data,db)
+
     print(properties)
     tags = db.query('tags')
     #print(tags)
@@ -283,8 +286,9 @@ def process_post_ad():
 def filtering_properties():
     data = request.form
     print(data)
-    basicFilter = filter.Filter()
-    properties = basicFilter.basic_filter(data,db)
+    filter_1=Filter1()
+    abstraction_imp=Abstraction(filter_1)
+    properties = abstraction_imp.operation(data,db)
     print(properties)
     tags = db.query('tags')
     #print(tags)

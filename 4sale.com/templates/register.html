@@ -181,19 +181,19 @@ function checkIfUsernameTaken() {
 	let username = document.getElementById('username').value;
 	console.log(username);
 	fetch('/check_username_taken?user='+username).then((result) => result.json()).then((res) => {
-		if(!res.exists) {
+		if(res.exists) {
 			usernameTaken = true;
 		}
 	});
 }
 
 function validateForm(form) {
-    /*
+    
 	if(usernameTaken) {
-		alert("I'm telling you it's not valid, fucking change it");
+		alert("Invalid username: Username is already taken");
 		return false;
 	}
-    */
+    
 	return true;
 }
 
